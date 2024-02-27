@@ -32,12 +32,13 @@ ul,li{
 
 .section{
     padding-top: 120px ;
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
     max-width: 100%;
     align-items: center;
     justify-content: center;
     font-size: 70px;
+    overflow: hidden;
     }
 
 img{
@@ -108,12 +109,15 @@ img{
     margin-left: 5px;
 }
 
-
-
 #home{
     display: flex;
 }
 
+/*---------CARRUSEL IMAGENES----------------*/
+
+.carousel-item img{
+    height: 80vh;
+}
 
 /*---------PLANES----------------*/
 
